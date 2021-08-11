@@ -1,0 +1,242 @@
+body {
+    margin-bottom: 10px;
+    background-color:black;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    z-index:2;
+ }
+
+.logo {
+    width:30px; 
+    height:30px;
+    padding:10px;
+}
+
+ .topnav {
+   position: fixed;
+   background-color: black;
+   overflow: hidden;
+   z-index:99999999;
+   display: flex;
+   justify-content: space-between;
+   width:100%;
+   left:0;
+   height:6%;
+   Top:0;
+ }
+ 
+ .topnav a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 16px 16px;
+   text-decoration: none;
+   font-size: 16px;
+ }
+ 
+ .topnav a:hover {
+   font-weight:500;
+ }
+ 
+ .topnav a:focus {
+  color:#FF7050;
+  font-weight:500;
+ }
+
+ 
+ .topnav_right {
+   float: right;
+   display:flex;
+   margin:1%;
+ }
+ 
+ #LogIn {
+   color:#FF7050;
+ }
+ 
+ #center {
+   position:absolute;
+   left:50%;top:-30%;
+   margin-left:-18%;
+   list-style:none;
+   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+   display: flex;
+   margin-top:0.9%;
+ }
+ 
+ #center a {
+   display:block;
+   text-align:center;
+   width:120px;
+   text-decoration:none; 
+   color: white;
+   padding: 16px 16px;
+   text-decoration: none;
+   font-size: 16px;
+ }
+ 
+ article {
+   position :relative;
+   padding: 20px;
+   width:70%;
+   left:0;
+   background-color: black;
+   height: 10%;
+   font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+   line-height:1%;
+   margin-bottom: 61px;
+ }
+ 
+ .article_download {
+   padding-top:20px;
+   color:white;
+   display:inline;
+ }
+ 
+ nav {
+   position:relative;
+   float: right;
+   width: 27%;
+   height: 100%;
+   background: black;
+   padding-top:45%;
+   text-align:left;
+   color:white;
+   margin-bottom: 61px;
+   top:2px;
+ }
+ 
+ h1 { 
+   font-size:1200%;
+ }
+ 
+ p {
+   font-size:15vw;
+   display:inline;
+ }
+ 
+ .Download_Device {
+   background-color: black;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius:8px;
+   border: 1px solid grey;
+ }
+ 
+ .Download_Device:hover {
+   border: 1px solid white;
+   background-color:#5F5E5D;
+ }
+ 
+ section{
+   margin-bottom: 61px;
+ }
+ 
+ .section_nav_grid {
+   position:relative;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: none;
+   background-color:black;
+   padding: none;
+   margin-bottom: 10px;
+   width:384px;
+   top:0px;
+ }
+ 
+ .Article_OS {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-gap: none;
+   background-color:black;
+   left:-50px;
+   top:80%;
+   margin-bottom: 61px;
+   width:700px;
+   margin:10px;
+   gap:20px;
+   
+ }
+ 
+ .section_nav_grid > div {
+   background-color: rgba(0, 0, 0, 0);
+   text-align: center;
+   padding: 10px 0;
+   font-size: 10px;
+ }
+ 
+ .section_nav_grid_button:hover {
+   color:white;
+   cursor:pointer;
+ }
+ 
+ .section_nav_grid_header {
+   color:white;
+ }
+ 
+ .section_nav_grid_button {
+   color:grey;
+ }
+ 
+ .footer {
+    position: fixed;
+    background-color:black;
+    overflow: hidden;
+    z-index: 998;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    display:flex;
+    justify-content: space-between;
+ }
+ 
+ .footer_left {
+   position:relative;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: none;
+   background-color:000000;
+   padding: none;
+   left:10px;
+   padding:10px 10px;
+   width:20%;
+   color:grey;
+ }
+ 
+ .footer_left_btn:hover {
+   color:white;
+   cursor:pointer;
+ }
+ 
+ .footer_right {
+   float: right;
+   display: inline-block;
+   width:3%;
+   padding:10px 10px;
+   right:20px;
+ }
+ 
+ #terms a {
+ display:block;
+ text-align:center;
+ width:100px;
+ text-decoration:none;
+ }
+ 
+ .Article_OS > div {
+   background-color: rgba(0, 0, 0, 0);
+   text-align: center;
+   padding: 20px 0;
+ }
+ 
+ .IG {
+    background-color: black;
+ }
+ 
